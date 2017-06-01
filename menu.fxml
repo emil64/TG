@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXProgressBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="700.0" maxWidth="1000.0" minHeight="700.0" minWidth="100.0" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MenuController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1000.0" pickOnBounds="true">
+         <image>
+            <Image url="@res/Network-Abstract-Wallpaper-small.jpg" />
+         </image>
+      </ImageView>
+      <Pane prefHeight="700.0" prefWidth="250.0" style="-fx-background-color: #4d4d4d;">
+         <children>
+            <ImageView fx:id="avatar" fitHeight="100.0" fitWidth="100.0" layoutX="75.0" layoutY="75.0" pickOnBounds="true">
+               </ImageView>
+            <Label fx:id="user" alignment="CENTER" layoutY="190.0" prefHeight="40.0" prefWidth="250.0" text="user" textFill="WHITE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="solved" alignment="CENTER" layoutY="230.0" prefHeight="40.0" prefWidth="250.0" text="probleme rezolvate: 4/10" textFill="WHITE">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="smecherie" alignment="CENTER" layoutY="320.0" prefHeight="40.0" prefWidth="250.0" text="coeficient de smecherie: 320" textFill="WHITE">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <JFXProgressBar fx:id="progress" layoutX="40.0" layoutY="275.0" prefHeight="10.0" prefWidth="170.0" progress="0.35" />
+            <JFXButton fx:id="settings" buttonType="RAISED" layoutX="54.0" layoutY="537.0" onAction="#settingsClicked" opacity="0.81" prefHeight="39.0" prefWidth="153.0" style="-fx-background-color: #f44242;" text="Setări" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+      <JFXButton fx:id="teorie" buttonType="RAISED" layoutX="750.0" layoutY="215.0" onAction="#teorieClicked" prefHeight="40.0" prefWidth="220.0" style="-fx-background-color: #f44242;" text="Suport teoretic" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="editor" buttonType="RAISED" layoutX="750.0" layoutY="355.0" onAction="#graphEditorClicked" prefHeight="40.0" prefWidth="220.0" style="-fx-background-color: #f44242;" text="Graph editor" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="iesire" buttonType="RAISED" layoutX="750.0" layoutY="500.0" onAction="#exitClicked" prefHeight="40.0" prefWidth="220.0" style="-fx-background-color: #f44242;" text="Iesire" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="probleme" buttonType="RAISED" layoutX="750.0" layoutY="285.0" onAction="#problemeClicked" prefHeight="40.0" prefWidth="220.0" style="-fx-background-color: #f44242;" text="Probleme propuse" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

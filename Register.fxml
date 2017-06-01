@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RegisterController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1000.0" pickOnBounds="true">
+         <image>
+            <Image url="@res/network1.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="140.0" layoutY="52.0" opacity="0.75" prefHeight="602.0" prefWidth="740.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Label fx:id="status" alignment="CENTER" contentDisplay="CENTER" layoutX="20.0" layoutY="26.0" prefHeight="40.0" prefWidth="694.0" text="label">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="user" alignment="BOTTOM_CENTER" focusColor="#ff1919" labelFloat="true" layoutX="43.0" layoutY="80.0" prefHeight="46.0" prefWidth="246.0" promptText="Username Infoarena">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField fx:id="pass" alignment="BOTTOM_CENTER" focusColor="#ff1919" labelFloat="true" layoutX="43.0" layoutY="190.0" prefHeight="46.0" prefWidth="246.0" promptText="Parola">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXPasswordField fx:id="passConfirm" alignment="BOTTOM_CENTER" focusColor="#ff1919" labelFloat="true" layoutX="43.0" layoutY="310.0" prefHeight="46.0" prefWidth="246.0" promptText="Confirmati parola">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXTextField fx:id="avatar" alignment="BOTTOM_CENTER" focusColor="#ff1919" labelFloat="true" layoutX="43.0" layoutY="430.0" onAction="#checkPass" prefHeight="46.0" prefWidth="246.0" promptText="Avatar (URL)">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <Label alignment="CENTER" layoutX="318.0" layoutY="102.0" prefHeight="150.0" prefWidth="407.0" style="-fx-background-color: #ffffff;" text="    Pentru verificarea contului de infoarena, adaugati un comentariu in urmatorul subiect din forum (nu vă va afecta cu nimic contul)" textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Hyperlink fx:id="link" layoutX="338.0" layoutY="276.0" onAction="#clickOnLink" text="http://www.infoarena.ro/forum/index.php?topic=11015" />
+            <JFXToggleButton fx:id="comm" layoutX="334.0" layoutY="332.0" onAction="#checkForum" prefHeight="103.0" prefWidth="351.0" text="Am adaugat un comentariu la subiectul respectiv de pe forumul Infoarena" textAlignment="JUSTIFY" toggleColor="#ff2121" toggleLineColor="#ff1f1fdb" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXToggleButton>
+            <JFXButton fx:id="finish" buttonType="RAISED" disable="true" layoutX="421.0" layoutY="450.0" onAction="#gataBa" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Finalizează" textFill="WHITE">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

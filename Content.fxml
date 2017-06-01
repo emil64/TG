@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ContentController">
+   <children>
+      <ImageView fitHeight="729.0" fitWidth="1000.0" pickOnBounds="true">
+         <image>
+            <Image url="@res/white-abstract-wallpaper-4.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="367.0" layoutY="629.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Lazy Detection(2)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="477.0" layoutY="96.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="BFS(37)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="271.0" layoutY="355.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Ciclu Hamilton(3)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="345.0" layoutY="119.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="DFS(55)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="788.0" layoutY="175.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Djikstra(18)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="295.0" layoutY="435.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="LCA(9)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="107.0" layoutY="87.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Înapoi" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="589.0" layoutY="499.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Flux maxim de cost minim(7)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="494.0" layoutY="213.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="ad-hoc(17)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="207.0" layoutY="293.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="APM(4)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="661.0" layoutY="560.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Corolare(1)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="639.0" layoutY="89.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Sortare Topologică(3)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="837.0" layoutY="311.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Cuplaj(9)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="447.0" layoutY="291.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Ciclu Euler(5)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="497.0" layoutY="408.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="MaxFlow(6)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="731.0" layoutY="395.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Cycle Detection(1)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="721.0" layoutY="625.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Graf Planar(3)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="568.0" layoutY="145.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Roy-Floyd(5)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="661.0" layoutY="339.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Biconexe(3)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="323.0" layoutY="547.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Liniarizare(7)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="691.0" layoutY="247.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Bellman-Ford(8)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="255.0" layoutY="201.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Tare Conexe(5)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="404.0" layoutY="480.0" onAction="#click" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="2-SAT(3)" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      
+      <Label layoutX="386.0" layoutY="22.0" text="Probleme propuse :)">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
